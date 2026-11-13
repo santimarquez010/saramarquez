@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sara Márquez · Community Manager</title>
+<meta name="description" content="Sara Márquez, Community Manager. Contenido para redes que muestra a la persona real detrás de la marca.">
+<meta property="og:title" content="Sara Márquez · Community Manager">
+<meta property="og:description" content="Contenido para redes que muestra a la persona real detrás de la marca.">
+<meta property="og:image" content="img/sara.jpg">
+<meta name="theme-color" content="#FFF1F3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=DM+Sans:opsz,wght@9..40,400..700&amp;display=swap">
+<style>
+:root{--vh:100vh}
+[hidden]{display:none !important}
+body{margin:0}
+a{color:#2B2740}a:hover{color:#5B4FA8}
+a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #5B4FA8;outline-offset:3px}
+.stage{position:sticky;top:0;height:var(--vh);margin-bottom:calc(var(--vh) * -1);overflow:hidden;background:#FFF1F3}
+.screen{min-height:var(--vh)}
+.hero{justify-content:center}
+.glass{background:rgba(255,255,255,0.74);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,0.9);box-shadow:0 24px 60px -36px rgba(43,39,64,0.45)}
+.pill{transition:transform .2s ease}
+.pill:hover{transform:translateY(-2px)}
+.film{--hv:clamp(240px, min(calc(var(--vh) * 0.66), 103vw), 640px);--wv:calc(var(--hv) * 0.5625);width:calc(var(--wv) + 68px);margin:0 auto;box-sizing:border-box;padding:28px 34px 12px;display:flex;flex-direction:column;align-items:center;gap:14px;background-color:#F4B4CC;background-repeat:no-repeat;background-size:14px 100%,14px 100%;background-position:10px 0,calc(100% - 10px) 0;background-image:repeating-linear-gradient(to bottom,transparent 0 4px,rgba(255,255,255,0.88) 4px 16px,transparent 16px 22px),repeating-linear-gradient(to bottom,transparent 0 4px,rgba(255,255,255,0.88) 4px 16px,transparent 16px 22px);box-shadow:0 30px 70px -40px rgba(43,39,64,0.55)}
+.frame{margin:0;display:flex;flex-direction:column;align-items:center}
+.shot{position:relative;width:var(--wv);height:var(--hv);border-radius:10px;overflow:hidden;background:#FDE2E4}
+.shot video{display:block;width:100%;height:100%;object-fit:cover}
+.play{position:absolute;left:50%;top:50%;width:76px;height:76px;margin:-38px 0 0 -38px;padding:0 0 0 5px;border:0;border-radius:50%;background:rgba(255,255,255,0.94);color:#2B2740;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px -10px rgba(43,39,64,0.6);transition:transform .2s ease}
+.play:hover{transform:scale(1.08)}
+.more .shot{width:100%;height:auto;aspect-ratio:9 / 16;border-radius:16px}
+.more .cap{width:auto;padding:0 6px}
+@media (max-width:760px){.more{display:flex !important;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;gap:16px !important;padding:56px 20px 12px !important;scroll-padding:0 20px}.more figure{flex:0 0 72%;scroll-snap-align:start}}
+.cap{width:var(--wv);height:46px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:14px;font-weight:700;color:#2B2740;white-space:nowrap}
+@media (max-width:760px){.hero{justify-content:flex-end}}
+@media (prefers-reduced-motion:reduce){.pill,.play{transition:none}}
+</style>
+</head>
+<body>
+<div data-ref="root" style="position: relative; background: #FFF1F3; color: #2B2740; font-family: 'DM Sans', system-ui, sans-serif; font-size: 17px; line-height: 1.6">
+
+<div data-ref="stage" class="stage" aria-hidden="true">
+<canvas data-ref="view" style="display: block; width: 100%; height: 100%"></canvas>
+</div>
+
+<div style="position: relative">
+
+<header id="inicio" class="screen" style="display: flex; flex-direction: column; box-sizing: border-box; padding: 0 clamp(20px, 5vw, 56px) 64px">
+<div style="display: flex; align-items: center; padding: 20px 0; max-width: 1160px; width: 100%; margin: 0 auto; box-sizing: border-box">
+<p style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: 20px; min-height: 44px; display: flex; align-items: center">Sara Márquez</p>
+</div>
+<div class="hero" style="flex: 1; display: flex; flex-direction: column; max-width: 1160px; width: 100%; margin: 0 auto; box-sizing: border-box">
+<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 24px; max-width: 620px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #4A4563">Community Manager</p>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: clamp(40px, 5.6vw, 80px); line-height: 1.02; letter-spacing: -0.02em; text-wrap: balance">Tu marca tiene algo que decir. Yo te ayudo a decirlo siendo tú.</h1>
+<p style="margin: 0; font-size: clamp(17px, 1.5vw, 20px); color: #4A4563; max-width: 30em; text-wrap: pretty">Contenido para redes que muestra a la persona real detrás de la marca.</p>
+</div>
+</div>
+</header>
+
+<section id="sobre-mi" style="padding: 120px clamp(20px, 5vw, 56px)">
+<div style="max-width: 1160px; margin: 0 auto; display: flex; justify-content: flex-end">
+<div class="glass" style="max-width: 800px; box-sizing: border-box; padding: clamp(20px, 3vw, 32px); border-radius: 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 28px">
+<img src="img/sara.jpg" alt="Sara Márquez sonriendo, con el cabello largo morado, frente a una pared rosa" style="flex: 1 1 220px; min-width: 0; max-width: 300px; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; border-radius: 24px">
+<div style="flex: 2 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #4A4563">Sobre mí</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 44px); line-height: 1.08; letter-spacing: -0.015em; text-wrap: balance">Hola, soy Sara.</h2>
+<p style="margin: 0; text-wrap: pretty">Ayudo a las marcas a construir su presencia digital y a comunicar su mensaje en redes sociales a través del contenido.</p>
+<p style="margin: 0; text-wrap: pretty">Mi enfoque es sencillo: que cada persona comunique de forma creativa y natural, y que en cámara se vea el personaje que es en la vida real.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="servicios" style="padding: 100px clamp(20px, 5vw, 56px)">
+<div style="max-width: 1160px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #4A4563">Qué hago</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 44px); line-height: 1.08; letter-spacing: -0.015em">De la idea al video publicado.</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(230px, 100%), 1fr)); gap: 20px">
+<div class="glass" style="box-sizing: border-box; padding: 28px; border-radius: 28px; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 48px; height: 48px; border-radius: 16px; background: #FAD2E1; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2B2740" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.8 7L4 20l1.1-4.6A8 8 0 1 1 21 12z"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: 22px; line-height: 1.15">Gestión de redes</h3>
+<p style="margin: 0; font-size: 16px; color: #4A4563">Construyo la presencia digital de tu marca y cuido que tu mensaje llegue claro.</p>
+</div>
+<div class="glass" style="box-sizing: border-box; padding: 28px; border-radius: 28px; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 48px; height: 48px; border-radius: 16px; background: #BEE1E6; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2B2740" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="3"></rect><path d="M16 10.5l5-3v9l-5-3"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: 22px; line-height: 1.15">Grabación y edición de video</h3>
+<p style="margin: 0; font-size: 16px; color: #4A4563">Desde la idea hasta el video listo para publicar.</p>
+</div>
+<div class="glass" style="box-sizing: border-box; padding: 28px; border-radius: 28px; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 48px; height: 48px; border-radius: 16px; background: #DFE7FD; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2B2740" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="4"></rect><circle cx="9.5" cy="9.5" r="1.5"></circle><path d="M20 15l-4.5-4.5L7 20"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: 22px; line-height: 1.15">Diseño en Canva</h3>
+<p style="margin: 0; font-size: 16px; color: #4A4563">Piezas gráficas simples, limpias y coherentes con tu marca.</p>
+</div>
+<div class="glass" style="box-sizing: border-box; padding: 28px; border-radius: 28px; display: flex; flex-direction: column; gap: 14px">
+<div style="width: 48px; height: 48px; border-radius: 16px; background: #E2ECE9; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2B2740" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4.5 20a7.5 7.5 0 0 1 15 0"></path></svg>
+</div>
+<h3 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: 22px; line-height: 1.15">Acompañamiento frente a cámara</h3>
+<p style="margin: 0; font-size: 16px; color: #4A4563">Te guío para que hables con naturalidad y confianza.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="trabajo" data-ref="work" style="padding: 220px 0 0">
+<div style="max-width: 1160px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 56px) 48px; display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #3C3852">Portafolio</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: clamp(34px, 4.6vw, 64px); line-height: 1.03; letter-spacing: -0.02em; text-wrap: balance">6 historias. 6 formas de mostrarse.</h2>
+</div>
+
+<div data-ref="film" class="film">
+
+<figure class="frame">
+<div class="shot">
+<video preload="none" aria-label="Video de @relato_restaurante" poster="img/relato-restaurante.jpg" src="videos/relato-restaurante.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @relato_restaurante"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@relato_restaurante</span><span>01 / 06</span></figcaption>
+</figure>
+
+<figure class="frame">
+<div class="shot">
+<video preload="none" aria-label="Video de @dr.suarezcirujano" poster="img/dr-suarez.jpg" src="videos/dr-suarez.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @dr.suarezcirujano"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@dr.suarezcirujano</span><span>02 / 06</span></figcaption>
+</figure>
+
+<figure class="frame">
+<div class="shot">
+<video preload="none" aria-label="Video de @zuluagaimpresores" poster="img/zuluaga-impresores.jpg" src="videos/zuluaga-impresores.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @zuluagaimpresores"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@zuluagaimpresores</span><span>03 / 06</span></figcaption>
+</figure>
+
+<figure class="frame">
+<div class="shot">
+<video preload="none" aria-label="Video de @desencajados" poster="img/desencajados-1.jpg" src="videos/desencajados-1.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @desencajados"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@desencajados</span><span>04 / 06</span></figcaption>
+</figure>
+
+<figure class="frame">
+<div class="shot">
+<video preload="none" aria-label="Video de @santimarquezoficial_" poster="img/santimarquez.jpg" src="videos/santimarquez.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @santimarquezoficial_"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@santimarquezoficial_</span><span>05 / 06</span></figcaption>
+</figure>
+
+<figure class="frame">
+<div class="shot">
+<video preload="none" aria-label="Video de @desencajados" poster="img/desencajados-2.jpg" src="videos/desencajados-2.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @desencajados"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@desencajados</span><span>06 / 06</span></figcaption>
+</figure>
+
+</div>
+
+<div data-ref="moreBtn">
+<div style="display: flex; justify-content: center; padding: 56px 20px 0">
+<button type="button" class="pill" data-action="more" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 32px; border: 0; border-radius: 999px; background: #2B2740; color: #FFFFFF; font-family: inherit; font-size: 17px; font-weight: 600; cursor: pointer">Ver más videos</button>
+</div>
+</div>
+
+<div data-ref="moreBox" hidden>
+<div class="more" style="max-width: 1160px; margin: 0 auto; box-sizing: border-box; padding: 72px clamp(20px, 5vw, 56px) 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(210px, 44%), 1fr)); gap: 24px">
+<figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
+<div class="shot">
+<video preload="none" aria-label="Video de @colorearte" poster="img/colorearte-1.jpg" src="videos/colorearte-1.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @colorearte"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@colorearte</span></figcaption>
+</figure>
+<figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
+<div class="shot">
+<video preload="none" aria-label="Video de @Senorm4rtinez" poster="img/senor-martinez.jpg" src="videos/senor-martinez.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @Senorm4rtinez"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@Senorm4rtinez</span></figcaption>
+</figure>
+<figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
+<div class="shot">
+<video preload="none" aria-label="Video de @blanco.32" poster="img/blanco32.jpg" src="videos/blanco32.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @blanco.32"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@blanco.32</span></figcaption>
+</figure>
+<figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
+<div class="shot">
+<video preload="none" aria-label="Video de @saraenvozalta" poster="img/saraenvozalta-1.jpg" src="videos/saraenvozalta-1.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @saraenvozalta"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@saraenvozalta</span></figcaption>
+</figure>
+<figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
+<div class="shot">
+<video preload="none" aria-label="Video de @colorearte" poster="img/colorearte-2.jpg" src="videos/colorearte-2.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @colorearte"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@colorearte</span></figcaption>
+</figure>
+<figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
+<div class="shot">
+<video preload="none" aria-label="Video de @saraenvozalta" poster="img/saraenvozalta-2.jpg" src="videos/saraenvozalta-2.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @saraenvozalta"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@saraenvozalta</span></figcaption>
+</figure>
+<figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
+<div class="shot">
+<video preload="none" aria-label="Video de @saraenvozalta" poster="img/saraenvozalta-3.jpg" src="videos/saraenvozalta-3.mp4"></video>
+<button type="button" class="play" aria-label="Reproducir el video de @saraenvozalta"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
+</div>
+<figcaption class="cap"><span>@saraenvozalta</span></figcaption>
+</figure>
+</div>
+<div style="display: flex; justify-content: center; padding: 40px 20px 0">
+<button type="button" class="pill" data-action="less" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 32px; border: 2px solid #2B2740; border-radius: 999px; background: transparent; color: #2B2740; font-family: inherit; font-size: 17px; font-weight: 600; cursor: pointer">Ver menos</button>
+</div>
+</div>
+</section>
+
+<section id="resultados" style="padding: 140px clamp(20px, 5vw, 56px) 120px">
+<div style="max-width: 1160px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 24px">
+<div class="glass" style="box-sizing: border-box; padding: clamp(28px, 4vw, 48px); border-radius: 32px; display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #4A4563">Lo que logro</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 40px); line-height: 1.08; letter-spacing: -0.015em; text-wrap: balance">Más conexión, y más confianza frente a la cámara.</h2>
+<p style="margin: 0; text-wrap: pretty">Más interacción y más conexión con tu comunidad, gracias a contenido que se siente real. Y algo que mis clientes valoran todavía más: la confianza en sí mismos para mostrarse en redes.</p>
+</div>
+<div class="glass" style="box-sizing: border-box; padding: clamp(28px, 4vw, 48px); border-radius: 32px; display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #4A4563">Por qué trabajar conmigo</p>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 40px); line-height: 1.08; letter-spacing: -0.015em; text-wrap: balance">Se aprende en el camino, y se disfruta.</h2>
+<p style="margin: 0; text-wrap: pretty">Mis clientes siempre destacan dos cosas: que aprenden mucho en el proceso y que llego con buena actitud y disposición.</p>
+</div>
+</div>
+</section>
+
+<section id="contacto" class="screen" style="display: flex; flex-direction: column; align-items: center; justify-content: center; box-sizing: border-box; padding: 100px clamp(20px, 5vw, 56px) 40px; text-align: center">
+<div class="glass" style="box-sizing: border-box; max-width: 720px; width: 100%; padding: clamp(32px, 5vw, 64px); border-radius: 40px; display: flex; flex-direction: column; align-items: center; gap: 22px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-weight: 800; font-size: clamp(48px, 7vw, 96px); line-height: 1; letter-spacing: -0.03em">¿Hablamos?</h2>
+<p style="margin: 0; font-size: clamp(17px, 1.5vw, 20px); max-width: 26em; text-wrap: pretty">Cuéntame de tu marca y armemos contenido que se parezca a ti.</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px">
+<a href="https://wa.me/573024076215" class="pill" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 999px; background: #2B2740; color: #FFFFFF; font-weight: 600; text-decoration: none">WhatsApp</a>
+<a href="https://www.instagram.com/saraenvozalta/" class="pill" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 999px; background: #FAD2E1; color: #2B2740; font-weight: 600; text-decoration: none">@saraenvozalta</a>
+<a href="mailto:sarimarquez88@gmail.com" class="pill" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 999px; background: #BEE1E6; color: #2B2740; font-weight: 600; text-decoration: none; overflow-wrap: anywhere">sarimarquez88@gmail.com</a>
+</div>
+</div>
+<p style="margin: 40px 0 0; font-size: 14px; color: #3C3852">Sara Márquez · Community Manager</p>
+</section>
+
+</div>
+</div>
+<script src="js/three.min.js"></script>
+<script>
+var NV = 6;
+
+function clamp(x, a, b) { return Math.min(b, Math.max(a, x)); }
+function mix(a, b, k) { return a + (b - a) * k; }
+function ss(a, b, x) { var k = clamp((x - a) / (b - a), 0, 1); return k * k * (3 - 2 * k); }
+
+/* Los videos de la cinta: play al centro y vuelta al cuadro inicial al terminar */
+function makeFilm(logic) {
+  var st = logic.work.current;
+  if (!st) return null;
+  var current = null;
+  function btnOf(v) { return v.parentNode ? v.parentNode.querySelector('.play') : null; }
+  function show(b, on) { if (b) b.style.display = on ? 'flex' : 'none'; }
+  function onClick(e) {
+    var b = e.target && e.target.closest ? e.target.closest('.play') : null;
+    if (!b || !b.parentNode) return;
+    var v = b.parentNode.querySelector('video');
+    if (!v) return;
+    var all = st.querySelectorAll('video');
+    for (var i = 0; i < all.length; i++) if (all[i] !== v && !all[i].paused) all[i].pause();
+    show(b, false);
+    v.controls = true;
+    current = v;
+    var p = v.play();
+    if (p && p.catch) p.catch(function () { v.controls = false; show(b, true); });
+  }
+  function onMedia(e) {
+    var v = e.target;
+    if (!v || v.tagName !== 'VIDEO') return;
+    var b = btnOf(v);
+    if (e.type === 'play') { current = v; show(b, false); }
+    else if (e.type === 'pause') show(b, true);
+    else if (e.type === 'ended') {
+      v.controls = false;
+      try { v.load(); } catch (err) {}
+      show(b, true);
+    }
+  }
+  st.addEventListener('click', onClick);
+  st.addEventListener('play', onMedia, true);
+  st.addEventListener('pause', onMedia, true);
+  st.addEventListener('ended', onMedia, true);
+  return {
+    update: function (vh) {
+      if (!current || current.paused) return;
+      var r = current.getBoundingClientRect();
+      if (r.bottom < 0 || r.top > vh) current.pause();
+    },
+    stop: function () {
+      st.removeEventListener('click', onClick);
+      st.removeEventListener('play', onMedia, true);
+      st.removeEventListener('pause', onMedia, true);
+      st.removeEventListener('ended', onMedia, true);
+    }
+  };
+}
+
+/* La cámara y el lente en 3D, guiados por el scroll */
+function saraScene(logic) {
+  var THREE = window.THREE;
+  var view = logic.view.current, stage = logic.stage.current;
+  if (!THREE || !view || !stage) return null;
+  var renderer;
+  try { renderer = new THREE.WebGLRenderer({ canvas: view, alpha: true, antialias: true }); }
+  catch (e) { return null; }
+  var calm = window.matchMedia('(prefers-reduced-motion: reduce)');
+  renderer.setClearColor(0x000000, 0);
+  renderer.outputEncoding = THREE.sRGBEncoding;
+
+  function col(hex) { return new THREE.Color(hex).convertSRGBToLinear(); }
+  function keys(t, pts) {
+    if (t <= pts[0][0]) return pts[0][1];
+    for (var i = 0; i < pts.length - 1; i++) {
+      var a = pts[i], b = pts[i + 1];
+      if (t <= b[0]) {
+        var k = (t - a[0]) / (b[0] - a[0]);
+        k = mix(k, k * k * (3 - 2 * k), 0.7);
+        return mix(a[1], b[1], k);
+      }
+    }
+    return pts[pts.length - 1][1];
+  }
+  function rgb(hex) { return [parseInt(hex.slice(1, 3), 16), parseInt(hex.slice(3, 5), 16), parseInt(hex.slice(5, 7), 16)]; }
+
+  var BG = ['#FFF1F3', '#FDE2E4', '#E2ECE9', '#D3EBEE', '#DFE7FD', '#E2ECE9', '#FAD2E1'].map(rgb);
+
+  var scene = new THREE.Scene();
+  scene.fog = new THREE.Fog(0xffffff, 10, 13);
+  var camera = new THREE.PerspectiveCamera(38, 1.6, 0.05, 140);
+
+  /* Entorno pastel para los reflejos */
+  var envScene = new THREE.Scene();
+  envScene.background = col('#FFF6F8');
+  [['#FAD2E1', 7, 5, 4, 4], ['#BEE1E6', -8, 2, 3, 4.5], ['#DFE7FD', 0, 8, -5, 5], ['#FFFFFF', 3, 6, 8, 3], ['#E2ECE9', -3, -7, 2, 5], ['#F4B4CC', 6, -4, -6, 3.5]].forEach(function (b) {
+    var m = new THREE.Mesh(new THREE.SphereGeometry(b[4], 24, 16), new THREE.MeshBasicMaterial({ color: col(b[0]) }));
+    m.position.set(b[1], b[2], b[3]);
+    envScene.add(m);
+  });
+  var pm = new THREE.PMREMGenerator(renderer);
+  scene.environment = pm.fromScene(envScene, 0.04).texture;
+  pm.dispose();
+
+  scene.add(new THREE.HemisphereLight(0xffffff, col('#F3D3E0'), 0.75));
+  var sun = new THREE.DirectionalLight(0xffffff, 0.85);
+  sun.position.set(4, 6, 8);
+  scene.add(sun);
+  var fill = new THREE.DirectionalLight(col('#BEE1E6'), 0.45);
+  fill.position.set(-6, -2, 4);
+  scene.add(fill);
+
+  function mat(hex, extra) {
+    var o = { color: col(hex), roughness: 0.42, metalness: 0.12, envMapIntensity: 0.85, fog: false };
+    for (var k in (extra || {})) o[k] = extra[k];
+    return new THREE.MeshStandardMaterial(o);
+  }
+  var HALF = Math.PI / 2;
+
+  /* Diafragma: hojas en media luna que se abren y se cierran */
+  function makeIris(n, fog) {
+    var g = new THREE.Group(), blades = [];
+    var sh = new THREE.Shape();
+    sh.moveTo(0, -1.2);
+    sh.absarc(0, 0, 1.2, -HALF, HALF, false);
+    sh.lineTo(0, -1.2);
+    var geo = new THREE.ShapeGeometry(sh, 40);
+    var m1 = mat('#A79ADB', { side: THREE.DoubleSide, roughness: 0.5, fog: fog });
+    var m2 = mat('#9488CF', { side: THREE.DoubleSide, roughness: 0.5, fog: fog });
+    for (var i = 0; i < n; i++) {
+      var h = new THREE.Group();
+      h.rotation.z = i / n * Math.PI * 2;
+      h.position.z = i * 0.008;
+      var b = new THREE.Mesh(geo, i % 2 ? m1 : m2);
+      b.rotation.y = 0.06;
+      h.add(b);
+      g.add(h);
+      blades.push(b);
+    }
+    g.userData.open = function (a) { for (var j = 0; j < blades.length; j++) blades[j].position.x = a; };
+    return g;
+  }
+
+  /* El lente */
+  var lens = new THREE.Group();
+  scene.add(lens);
+  var barrel = new THREE.Mesh(new THREE.CylinderGeometry(2, 2, 1.8, 96, 1, true), mat('#F4B4CC', { side: THREE.DoubleSide }));
+  barrel.rotation.x = HALF; barrel.position.z = -0.3;
+  lens.add(barrel);
+  var rear = new THREE.Mesh(new THREE.CylinderGeometry(2, 1.6, 0.6, 96, 1, true), mat('#B9C6F6', { side: THREE.DoubleSide }));
+  rear.rotation.x = HALF; rear.position.z = -1.5;
+  lens.add(rear);
+  var rearRim = new THREE.Mesh(new THREE.TorusGeometry(1.6, 0.06, 12, 96), mat('#9DD3DB'));
+  rearRim.position.z = -1.8;
+  lens.add(rearRim);
+
+  var focus = new THREE.Group();
+  lens.add(focus);
+  var grip = new THREE.Mesh(new THREE.CylinderGeometry(2.07, 2.07, 0.7, 96, 1, true), mat('#9DD3DB', { roughness: 0.55 }));
+  grip.rotation.x = HALF; grip.position.z = -0.1;
+  focus.add(grip);
+  var RIDGES = 64;
+  var ridges = new THREE.InstancedMesh(new THREE.BoxGeometry(0.07, 0.09, 0.58), mat('#86C3CC', { roughness: 0.6 }), RIDGES);
+  var dummy = new THREE.Object3D();
+  for (var r = 0; r < RIDGES; r++) {
+    var th = r / RIDGES * Math.PI * 2;
+    dummy.position.set(Math.cos(th) * 2.1, Math.sin(th) * 2.1, -0.1);
+    dummy.rotation.set(0, 0, th);
+    dummy.updateMatrix();
+    ridges.setMatrixAt(r, dummy.matrix);
+  }
+  ridges.instanceMatrix.needsUpdate = true;
+  focus.add(ridges);
+
+  var band = new THREE.Mesh(new THREE.CylinderGeometry(2.04, 2.04, 0.12, 96, 1, true), mat('#DFE7FD'));
+  band.rotation.x = HALF; band.position.z = -0.85;
+  lens.add(band);
+  var bezel = new THREE.Mesh(new THREE.TorusGeometry(1.96, 0.08, 16, 120), mat('#C5D0F8', { roughness: 0.3, metalness: 0.3 }));
+  bezel.position.z = 0.6;
+  lens.add(bezel);
+  var steps = new THREE.Mesh(
+    new THREE.LatheGeometry([[1.96, 0.6], [1.62, 0.52], [1.62, 0.3], [1.42, 0.24], [1.42, 0.02], [1.26, -0.04], [1.26, -0.2]].map(function (p) { return new THREE.Vector2(p[0], p[1]); }), 96),
+    mat('#B9C6F6', { side: THREE.DoubleSide, roughness: 0.5 })
+  );
+  steps.rotation.x = HALF;
+  lens.add(steps);
+
+  function glass(rim, R, z, hex, opacity) {
+    var th = Math.asin(rim / R);
+    var m = new THREE.Mesh(
+      new THREE.SphereGeometry(R, 64, 16, 0, Math.PI * 2, 0, th),
+      new THREE.MeshStandardMaterial({ color: col(hex), metalness: 1, roughness: 0.06, transparent: true, opacity: opacity, envMapIntensity: 1.7, depthWrite: false, side: THREE.DoubleSide, fog: false })
+    );
+    m.rotation.x = HALF;
+    m.position.z = z - R * Math.cos(th);
+    return m;
+  }
+  var glassFront = glass(1.6, 3.0, 0.15, '#D9CCFF', 0.3), glassRear = glass(1.2, 2.2, -0.6, '#BEE1E6', 0.22);
+  lens.add(glassFront);
+  lens.add(glassRear);
+
+  var iris = makeIris(8, false);
+  iris.position.z = -0.28;
+  lens.add(iris);
+
+  /* piezas del lente que se separan a lo largo del eje y vuelven a su sitio */
+  var stack = [[bezel, 2.0], [glassFront, 1.5], [steps, 0.9], [iris, -1.5], [glassRear, -2.2], [rear, -2.5], [rearRim, -2.9]].map(function (it) {
+    return { o: it[0], z0: it[0].position.z, ex: it[1] };
+  });
+
+  /* El cuerpo de la cámara: piezas que se separan al bajar */
+  var parts = [];
+  function part(obj, off, rot, d) {
+    lens.add(obj);
+    parts.push({ o: obj, home: obj.position.clone(), off: off, rot: rot, d: d });
+    return obj;
+  }
+  function rrPath(p, w, h, rad) {
+    var x = -w / 2, y = -h / 2;
+    p.moveTo(x + rad, y);
+    p.lineTo(x + w - rad, y); p.absarc(x + w - rad, y + rad, rad, -HALF, 0, false);
+    p.lineTo(x + w, y + h - rad); p.absarc(x + w - rad, y + h - rad, rad, 0, HALF, false);
+    p.lineTo(x + rad, y + h); p.absarc(x + rad, y + h - rad, rad, HALF, Math.PI, false);
+    p.lineTo(x, y + rad); p.absarc(x + rad, y + rad, rad, Math.PI, Math.PI * 1.5, false);
+    return p;
+  }
+  function slab(shape, depth) {
+    return new THREE.ExtrudeGeometry(shape, { depth: depth, bevelEnabled: true, bevelThickness: 0.04, bevelSize: 0.04, bevelSegments: 2, curveSegments: 20 });
+  }
+  function at(obj, x, y, z) { obj.position.set(x, y, z); return obj; }
+  var BW = 8.4, BH = 5.2;
+
+  /* frente, con el hueco del lente */
+  var frontShape = rrPath(new THREE.Shape(), BW, BH, 0.9);
+  var hole = new THREE.Path();
+  hole.absarc(0, 0, 2.2, 0, Math.PI * 2, true);
+  frontShape.holes.push(hole);
+  var front = at(new THREE.Group(), 0, 0, -1.45);
+  front.add(new THREE.Mesh(slab(frontShape, 0.2), mat('#FBD3DF')));
+  front.add(at(new THREE.Mesh(new THREE.TorusGeometry(2.24, 0.1, 14, 96), mat('#C5D0F8', { roughness: 0.3, metalness: 0.3 })), 0, 0, 0.26));
+  var lamp = at(new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.3, 0.12, 32), mat('#DFE7FD', { roughness: 0.2, metalness: 0.4 })), 3.2, 1.7, 0.28);
+  lamp.rotation.x = HALF;
+  front.add(lamp);
+  part(front, [0.4, 0.6, 3.4], [0.5, -0.3, 0], 0);
+
+  /* agarre */
+  part(at(new THREE.Mesh(new THREE.BoxGeometry(1.3, 4.2, 0.7), mat('#9DD3DB', { roughness: 0.6 })), -3.35, -0.1, -0.95), [-4.2, -0.4, 1.2], [0, -0.9, 0.2], 0.03);
+
+  /* piezas de arriba */
+  var hump = at(new THREE.Group(), 0, 3.0, -2.25);
+  hump.add(new THREE.Mesh(new THREE.BoxGeometry(2.2, 0.8, 1.3), mat('#C5D0F8')));
+  hump.add(at(new THREE.Mesh(new THREE.BoxGeometry(1.0, 0.12, 0.8), mat('#A79ADB')), 0, 0.46, 0));
+  part(hump, [0, 3.4, 0.4], [0.6, 0, 0.2], 0.06);
+  var button = at(new THREE.Group(), -2.9, 2.78, -2.25);
+  button.add(new THREE.Mesh(new THREE.CylinderGeometry(0.55, 0.55, 0.14, 32), mat('#DFE7FD')));
+  button.add(at(new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.36, 0.3, 32), mat('#A79ADB')), 0, 0.2, 0));
+  part(button, [-1.8, 3.6, 0.6], [0.4, 0, -0.5], 0.1);
+  var dial = at(new THREE.Group(), 2.7, 2.8, -2.25);
+  dial.add(new THREE.Mesh(new THREE.CylinderGeometry(0.62, 0.62, 0.36, 24), mat('#9DD3DB', { flatShading: true })));
+  part(dial, [2.0, 3.3, 0.6], [0.3, 3.2, 0.4], 0.12);
+
+  /* interior */
+  var prism = at(new THREE.Mesh(new THREE.BoxGeometry(1.6, 0.9, 1.0), new THREE.MeshStandardMaterial({ color: col('#D9CCFF'), metalness: 1, roughness: 0.08, transparent: true, opacity: 0.55, envMapIntensity: 1.6, fog: false })), 0, 1.7, -2.25);
+  part(prism, [0.9, 4.4, 1.0], [1.0, 0.6, 0], 0.18);
+  var shutterShape = rrPath(new THREE.Shape(), 3.2, 2.4, 0.2);
+  var win = new THREE.Path();
+  win.moveTo(-1.2, -0.8); win.lineTo(-1.2, 0.8); win.lineTo(1.2, 0.8); win.lineTo(1.2, -0.8); win.lineTo(-1.2, -0.8);
+  shutterShape.holes.push(win);
+  var shut = at(new THREE.Group(), 0, 0, -2.3);
+  shut.add(new THREE.Mesh(slab(shutterShape, 0.12), mat('#DFE7FD')));
+  shut.add(at(new THREE.Mesh(new THREE.PlaneGeometry(2.4, 0.9), mat('#8E82C9', { side: THREE.DoubleSide })), 0, 0.35, 0.06));
+  part(shut, [-4.8, 1.7, 1.4], [0, 1.1, -0.3], 0.1);
+  var sensor = at(new THREE.Group(), 0, 0, -2.85);
+  sensor.add(new THREE.Mesh(new THREE.BoxGeometry(3.4, 2.5, 0.1), mat('#C9DAD4')));
+  sensor.add(at(new THREE.Mesh(new THREE.BoxGeometry(2.4, 1.6, 0.08), mat('#8E82C9', { metalness: 0.8, roughness: 0.18, envMapIntensity: 1.5 })), 0, 0, 0.08));
+  part(sensor, [4.8, -1.3, 1.2], [0, -1.2, 0.3], 0.14);
+  part(at(new THREE.Mesh(new THREE.BoxGeometry(1.0, 3.2, 1.0), mat('#86C3CC')), -3.2, -0.3, -2.25), [-3.2, -3.6, 0.8], [0.3, 0, 1.2], 0.16);
+  function gear(x, y, off, d) {
+    var g = at(new THREE.Group(), x, y, -2.2);
+    var m = new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.5, 0.18, 10), mat('#F4B4CC', { flatShading: true, metalness: 0.4 }));
+    m.rotation.x = HALF;
+    g.add(m);
+    part(g, off, [0, 0, 6], d);
+  }
+  gear(3.0, 1.3, [3.6, 2.8, 1.0], 0.08);
+  gear(3.2, 0.2, [4.4, -2.2, 1.6], 0.13);
+
+  /* armazón y tapa de atrás */
+  var bandShape = rrPath(new THREE.Shape(), BW, BH, 0.9);
+  bandShape.holes.push(rrPath(new THREE.Path(), BW - 0.6, BH - 0.6, 0.6));
+  part(at(new THREE.Mesh(slab(bandShape, 1.6), mat('#F4B4CC')), 0, 0, -3.05), [0, 0.4, -4.5], [0, 0, 0.35], 0.22);
+  part(at(new THREE.Mesh(slab(rrPath(new THREE.Shape(), BW, BH, 0.9), 0.2), mat('#FBD3DF')), 0, 0, -3.3), [0, -1.2, -7], [-0.6, 0, 0], 0.2);
+
+  /* Aros suaves al atravesar el lente */
+  var ZEND = -26;
+  var ringCols = ['#F4B4CC', '#9DD3DB', '#B9C6F6', '#C9DAD4'];
+  for (var q = 0; q < 6; q++) {
+    var ring = new THREE.Mesh(new THREE.TorusGeometry(4.2 + (q % 3) * 0.6, 0.045, 10, 120), mat(ringCols[q % 4], { fog: true, roughness: 0.6 }));
+    ring.position.z = -5 - q * 3.3;
+    scene.add(ring);
+  }
+
+  /* Obturador final */
+  var shutter = new THREE.Group();
+  shutter.position.z = ZEND;
+  scene.add(shutter);
+  var endIris = makeIris(8, true);
+  endIris.scale.set(3.2, 3.2, 1);
+  shutter.add(endIris);
+  var plate = new THREE.Mesh(new THREE.RingGeometry(3.9, 12, 96), mat('#F4B4CC', { side: THREE.DoubleSide, fog: true }));
+  plate.position.z = 0.12;
+  shutter.add(plate);
+  var endRim = new THREE.Mesh(new THREE.TorusGeometry(3.9, 0.14, 16, 120), mat('#C5D0F8', { roughness: 0.3, metalness: 0.3, fog: true }));
+  endRim.position.z = 0.16;
+  shutter.add(endRim);
+
+  /* Motas de luz */
+  var dot = document.createElement('canvas');
+  dot.width = 64; dot.height = 64;
+  var dg = dot.getContext('2d');
+  var grad = dg.createRadialGradient(32, 32, 0, 32, 32, 32);
+  grad.addColorStop(0, 'rgba(255,255,255,1)');
+  grad.addColorStop(0.5, 'rgba(255,255,255,0.75)');
+  grad.addColorStop(1, 'rgba(255,255,255,0)');
+  dg.fillStyle = grad;
+  dg.fillRect(0, 0, 64, 64);
+  var PN = 170, pp = new Float32Array(PN * 3), pc = new Float32Array(PN * 3);
+  var dotCols = ['#F4B4CC', '#9DD3DB', '#B9C6F6', '#FFFFFF', '#C9DAD4'].map(col);
+  var seed = 7;
+  function rnd() { seed = (seed * 16807) % 2147483647; return seed / 2147483647; }
+  for (var p = 0; p < PN; p++) {
+    var ang = rnd() * Math.PI * 2, rad = 0.9 + rnd() * 6.5, pz = 7 + (ZEND - 7) * rnd();
+    if (pz > -4 && rad < 3.2) rad += 3.2;
+    pp[p * 3] = Math.cos(ang) * rad; pp[p * 3 + 1] = Math.sin(ang) * rad * 0.8; pp[p * 3 + 2] = pz;
+    var dc = dotCols[p % dotCols.length];
+    pc[p * 3] = dc.r; pc[p * 3 + 1] = dc.g; pc[p * 3 + 2] = dc.b;
+  }
+  var dotGeo = new THREE.BufferGeometry();
+  dotGeo.setAttribute('position', new THREE.BufferAttribute(pp, 3));
+  dotGeo.setAttribute('color', new THREE.BufferAttribute(pc, 3));
+  var dots = new THREE.Points(dotGeo, new THREE.PointsMaterial({ size: 0.26, map: new THREE.CanvasTexture(dot), vertexColors: true, transparent: true, opacity: 0.9, depthWrite: false, sizeAttenuation: true }));
+  dots.frustumCulled = false;
+  scene.add(dots);
+
+  /* Estado */
+  var last = performance.now(), time = 0;
+  var tS = 0, first = true, mx = 0, my = 0, px = 0, py = 0;
+  var cw = 0, ch = 0, dprNow = 0;
+  var look = new THREE.Vector3(), fogCol = new THREE.Color();
+
+  function onMove(e) {
+    mx = e.clientX / (window.innerWidth || 1) * 2 - 1;
+    my = e.clientY / (window.innerHeight || 1) * 2 - 1;
+  }
+  window.addEventListener('pointermove', onMove, { passive: true });
+
+  function frame(now, tT) {
+    var dt = Math.min(0.05, Math.max(0, (now - last) / 1000));
+    last = now;
+    var quiet = calm.matches;
+    if (!quiet) time += dt;
+    var w = stage.clientWidth || 1, h = stage.clientHeight || 1, dpr = Math.min(window.devicePixelRatio || 1, 2);
+    if (w !== cw || h !== ch || dpr !== dprNow) {
+      cw = w; ch = h; dprNow = dpr;
+      renderer.setPixelRatio(dpr);
+      renderer.setSize(w, h, false);
+      camera.aspect = w / h;
+    }
+    if (first || quiet) { tS = tT; first = false; }
+    else tS += (tT - tS) * (1 - Math.pow(0.003, dt));
+    var t = tS;
+    px += (mx - px) * 0.06; py += (my - py) * 0.06;
+
+    /* color de fondo y niebla */
+    var bi = clamp(Math.floor(t), 0, 5), bk = clamp(t - bi, 0, 1), c0 = BG[bi], c1 = BG[bi + 1];
+    var cr = Math.round(mix(c0[0], c1[0], bk)), cg = Math.round(mix(c0[1], c1[1], bk)), cb = Math.round(mix(c0[2], c1[2], bk));
+    stage.style.backgroundColor = 'rgb(' + cr + ',' + cg + ',' + cb + ')';
+    fogCol.setRGB(cr / 255, cg / 255, cb / 255).convertSRGBToLinear();
+    scene.fog.color.copy(fogCol);
+    var inside = ss(4.5, 5.1, t), reveal = ss(3.9, 4.7, t);
+    scene.fog.near = mix(10, 4, reveal);
+    scene.fog.far = mix(13, 24, reveal);
+
+    /* encuadre según el ancho de pantalla */
+    var aspect = camera.aspect;
+    var halfW = 9 * Math.tan(19 * Math.PI / 180) * aspect;
+    var xCam = clamp(halfW - 2.7, 0, 2.9);
+    var xLens = Math.max(7.6 * Math.tan(19 * Math.PI / 180) * aspect - 1.0, 1.7);
+    var wide = clamp(xCam / 1.2, 0, 1);
+    var early = 1 - ss(1.5, 2.1, t);
+    var calmK = 1 - ss(4.0, 4.5, t);
+    var out = ss(4.0, 4.5, t);
+    var v = (t - 3) * NV - 0.5, wc = Math.cos(Math.PI * v), wave = (wc < 0 ? -1 : 1) * Math.pow(Math.abs(wc), 0.6);
+    var bump = function (c) { return ss(c - 0.42, c - 0.12, v) * (1 - ss(c + 0.12, c + 0.42, v)); };
+    var apart = Math.max(bump(2), bump(4));
+    var spinY = Math.PI * 2 * ss(0.65, 1.35, v), spinX = Math.PI * 2 * ss(2.65, 3.35, v);
+    for (var j = 0; j < stack.length; j++) stack[j].o.position.z = stack[j].z0 + stack[j].ex * apart;
+
+    /* la cámara se desarma */
+    var e = ss(1.05, 1.9, t);
+    for (var i = 0; i < parts.length; i++) {
+      var P = parts[i], k = ss(P.d, P.d + 0.5, e), s = 1 - ss(P.d + 0.42, P.d + 0.72, e);
+      P.o.visible = s > 0.002;
+      if (!P.o.visible) continue;
+      P.o.position.set(P.home.x + P.off[0] * k, P.home.y + P.off[1] * k, P.home.z + P.off[2] * k);
+      P.o.rotation.set(P.rot[0] * k, P.rot[1] * k, P.rot[2] * k);
+      P.o.scale.setScalar(s);
+    }
+    lens.scale.setScalar(mix(0.6, 1, ss(1.6, 2.4, t)));
+
+    /* posición del conjunto */
+    var lx, ly, ry;
+    if (t < 3) {
+      lx = keys(t, [[0, xCam], [1, -xCam], [1.7, 0]]);
+      ry = keys(t, [[0, -0.55], [1, 0.55], [1.7, 0]]);
+    } else {
+      lx = xLens * wave * (1 - out) * (1 - 0.2 * apart);
+      ry = (-0.5 - 0.4 * apart) * wave * (1 - out) + spinY;
+    }
+    ly = (1 - wide) * 2.3 * early;
+    lens.position.x = lx;
+    lens.position.y = ly + (quiet ? 0 : Math.sin(time * 0.7) * 0.06 * calmK);
+    lens.rotation.y = ry + (px * 0.16 + (quiet ? 0 : Math.sin(time * 0.45) * 0.04)) * calmK;
+    lens.rotation.x = keys(t, [[0, 0.12], [1, -0.1], [1.7, 0]]) + spinX + py * 0.1 * calmK;
+    focus.rotation.z = t * 1.3 + (t > 3 ? v * 0.9 : 0) + time * 0.06;
+    var ap = t < 3 ? keys(t, [[0, 0.2], [1, 0.3], [2, 0.45], [3, 0.3]]) : mix(0.3 + 0.45 * wave * wave, 0.78, out);
+    iris.userData.open(ap);
+    iris.rotation.z = -t * 0.5;
+
+    /* cámara de la escena */
+    var cz = keys(t, [[0, 9], [1, 8.6], [2, 7.6], [4, 7.6], [5, -2.2], [6, -19.5]]);
+    if (cz > 0) cz *= 1 + (1 - wide) * 0.85 * (1 - ss(1.9, 2.6, t));
+    var tun = ss(5, 5.5, t);
+    camera.position.set(Math.sin((t - 5) * 2.1) * 0.35 * tun, 0.2 * calmK + Math.cos((t - 5) * 1.6) * 0.25 * tun, cz);
+    look.set(0, 0, mix(0, cz - 12, ss(4.3, 4.9, t)));
+    camera.fov = mix(38, 68, ss(4.3, 5.1, t));
+    camera.updateProjectionMatrix();
+    camera.lookAt(look);
+    camera.rotateZ(Math.max(0, t - 4.6) * 0.3 + (quiet ? 0 : Math.sin(time * 0.2) * 0.03 * inside));
+
+    /* obturador final */
+    endIris.userData.open(mix(0.78, 0.1, ss(5.25, 6, t)));
+    endIris.rotation.z = t * 0.6;
+    dots.rotation.z = time * 0.01;
+
+    renderer.render(scene, camera);
+  }
+
+  return {
+    frame: frame,
+    stop: function () {
+      window.removeEventListener('pointermove', onMove);
+      try { renderer.dispose(); } catch (err) {}
+    }
+  };
+}
+
+/* Arranque de la página */
+(function () {
+  function ref(n) { return { current: document.querySelector('[data-ref="' + n + '"]') }; }
+  var app = { root: ref('root'), stage: ref('stage'), view: ref('view'), film: ref('film'), work: ref('work') };
+  var moreBtn = document.querySelector('[data-ref="moreBtn"]'), moreBox = document.querySelector('[data-ref="moreBox"]');
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('[data-action]') : null;
+    if (!b) return;
+    if (b.getAttribute('data-action') === 'more') { moreBox.hidden = false; moreBtn.hidden = true; }
+    else {
+      var vs = moreBox.querySelectorAll('video');
+      for (var i = 0; i < vs.length; i++) if (!vs[i].paused) vs[i].pause();
+      moreBox.hidden = true; moreBtn.hidden = false;
+      var f = app.film.current;
+      if (f) { var r = f.getBoundingClientRect(); window.scrollBy(0, r.bottom - (window.innerHeight || 800) * 0.6); }
+    }
+  });
+  var reel = null, scene3d = null, sceneOff = false, tries = 0, vhSet = -1;
+  function tick(now) {
+    requestAnimationFrame(tick);
+    if (document.hidden) return;
+    var root = app.root.current;
+    if (!root) return;
+    var vh = window.innerHeight || 800, H = root.offsetHeight || 1;
+    if (vh !== vhSet) { vhSet = vh; document.documentElement.style.setProperty('--vh', vh + 'px'); }
+    try {
+      if (!reel) reel = makeFilm(app);
+      if (reel) reel.update(vh);
+    } catch (e) {}
+    if (!scene3d && !sceneOff && window.THREE && app.view.current) {
+      try { scene3d = saraScene(app); } catch (e) { scene3d = null; }
+      if (!scene3d && tries++ > 3) sceneOff = true;
+    }
+    if (!scene3d) return;
+    var tT = 0, maxS = H - vh;
+    if (maxS > 4) {
+      var rect = root.getBoundingClientRect(), sc = -rect.top;
+      var top = function (el, fallback) { return el ? el.getBoundingClientRect().top - rect.top : fallback; };
+      var about = top(document.getElementById('sobre-mi'), H * 0.1);
+      var serv = top(document.getElementById('servicios'), H * 0.2);
+      var film = app.film.current;
+      var filmTop = top(film, H * 0.3), filmH = film ? film.offsetHeight : H * 0.5;
+      var A = [0, about - vh * 0.25, serv - vh * 0.2, filmTop - vh * 0.5, filmTop + filmH - vh * 0.5, Math.max(filmTop + filmH, top(document.getElementById('resultados'), H * 0.8) - vh * 0.1), maxS];
+      for (var k = 1; k < A.length; k++) A[k] = Math.max(A[k], A[k - 1] + 1);
+      sc = clamp(sc, 0, A[6]);
+      tT = 6;
+      for (var n = 0; n < 6; n++) {
+        if (sc <= A[n + 1]) { tT = n + (sc - A[n]) / (A[n + 1] - A[n]); break; }
+      }
+    }
+    try { scene3d.frame(now, tT); }
+    catch (e) { scene3d.stop(); scene3d = null; sceneOff = true; }
+  }
+  requestAnimationFrame(tick);
+})();
+</script>
+</body>
+</html>
