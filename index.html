@@ -28,7 +28,7 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #5B4F
 .frame{margin:0;display:flex;flex-direction:column;align-items:center}
 .shot{position:relative;width:var(--wv);height:var(--hv);border-radius:10px;overflow:hidden;background:#FDE2E4}
 .shot video{display:block;width:100%;height:100%;object-fit:cover}
-.play{position:absolute;left:50%;top:50%;width:76px;height:76px;margin:-38px 0 0 -38px;padding:0 0 0 5px;border:0;border-radius:50%;background:rgba(255,255,255,0.94);color:#2B2740;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px -10px rgba(43,39,64,0.6);transition:transform .2s ease}
+.play{position:absolute;left:50%;top:50%;width:76px;height:76px;margin:-38px 0 0 -38px;padding:0 0 0 5px;box-sizing:border-box;border:4px solid rgba(255,255,255,0.9);border-radius:50%;background:#F4B4CC;color:#2B2740;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px -10px rgba(43,39,64,0.6);transition:transform .2s ease}
 .play:hover{transform:scale(1.08)}
 .more .shot{width:100%;height:auto;aspect-ratio:9 / 16;border-radius:16px}
 .more .cap{width:auto;padding:0 6px}
@@ -123,7 +123,7 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #5B4F
 
 <figure class="frame">
 <div class="shot">
-<video preload="none" aria-label="Video de @relato_restaurante" poster="img/relato-restaurante.jpg" src="videos/relato-restaurante.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @relato_restaurante" poster="img/relato-restaurante.jpg" src="videos/relato-restaurante.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @relato_restaurante"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@relato_restaurante</span><span>01 / 06</span></figcaption>
@@ -131,7 +131,7 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #5B4F
 
 <figure class="frame">
 <div class="shot">
-<video preload="none" aria-label="Video de @dr.suarezcirujano" poster="img/dr-suarez.jpg" src="videos/dr-suarez.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @dr.suarezcirujano" poster="img/dr-suarez.jpg" src="videos/dr-suarez.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @dr.suarezcirujano"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@dr.suarezcirujano</span><span>02 / 06</span></figcaption>
@@ -139,7 +139,7 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #5B4F
 
 <figure class="frame">
 <div class="shot">
-<video preload="none" aria-label="Video de @zuluagaimpresores" poster="img/zuluaga-impresores.jpg" src="videos/zuluaga-impresores.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @zuluagaimpresores" poster="img/zuluaga-impresores.jpg" src="videos/zuluaga-impresores.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @zuluagaimpresores"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@zuluagaimpresores</span><span>03 / 06</span></figcaption>
@@ -147,7 +147,7 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #5B4F
 
 <figure class="frame">
 <div class="shot">
-<video preload="none" aria-label="Video de @desencajados" poster="img/desencajados-1.jpg" src="videos/desencajados-1.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @desencajados" poster="img/desencajados-1.jpg" src="videos/desencajados-1.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @desencajados"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@desencajados</span><span>04 / 06</span></figcaption>
@@ -155,7 +155,7 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #5B4F
 
 <figure class="frame">
 <div class="shot">
-<video preload="none" aria-label="Video de @santimarquezoficial_" poster="img/santimarquez.jpg" src="videos/santimarquez.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @santimarquezoficial_" poster="img/santimarquez.jpg" src="videos/santimarquez.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @santimarquezoficial_"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@santimarquezoficial_</span><span>05 / 06</span></figcaption>
@@ -163,7 +163,7 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #5B4F
 
 <figure class="frame">
 <div class="shot">
-<video preload="none" aria-label="Video de @desencajados" poster="img/desencajados-2.jpg" src="videos/desencajados-2.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @desencajados" poster="img/desencajados-2.jpg" src="videos/desencajados-2.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @desencajados"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@desencajados</span><span>06 / 06</span></figcaption>
@@ -181,49 +181,49 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #5B4F
 <div class="more" style="max-width: 1160px; margin: 0 auto; box-sizing: border-box; padding: 72px clamp(20px, 5vw, 56px) 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(210px, 44%), 1fr)); gap: 24px">
 <figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
 <div class="shot">
-<video preload="none" aria-label="Video de @colorearte" poster="img/colorearte-1.jpg" src="videos/colorearte-1.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @colorearte" poster="img/colorearte-1.jpg" src="videos/colorearte-1.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @colorearte"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@colorearte</span></figcaption>
 </figure>
 <figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
 <div class="shot">
-<video preload="none" aria-label="Video de @Senorm4rtinez" poster="img/senor-martinez.jpg" src="videos/senor-martinez.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @Senorm4rtinez" poster="img/senor-martinez.jpg" src="videos/senor-martinez.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @Senorm4rtinez"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@Senorm4rtinez</span></figcaption>
 </figure>
 <figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
 <div class="shot">
-<video preload="none" aria-label="Video de @blanco.32" poster="img/blanco32.jpg" src="videos/blanco32.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @blanco.32" poster="img/blanco32.jpg" src="videos/blanco32.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @blanco.32"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@blanco.32</span></figcaption>
 </figure>
 <figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
 <div class="shot">
-<video preload="none" aria-label="Video de @saraenvozalta" poster="img/saraenvozalta-1.jpg" src="videos/saraenvozalta-1.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @saraenvozalta" poster="img/saraenvozalta-1.jpg" src="videos/saraenvozalta-1.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @saraenvozalta"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@saraenvozalta</span></figcaption>
 </figure>
 <figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
 <div class="shot">
-<video preload="none" aria-label="Video de @colorearte" poster="img/colorearte-2.jpg" src="videos/colorearte-2.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @colorearte" poster="img/colorearte-2.jpg" src="videos/colorearte-2.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @colorearte"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@colorearte</span></figcaption>
 </figure>
 <figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
 <div class="shot">
-<video preload="none" aria-label="Video de @saraenvozalta" poster="img/saraenvozalta-2.jpg" src="videos/saraenvozalta-2.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @saraenvozalta" poster="img/saraenvozalta-2.jpg" src="videos/saraenvozalta-2.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @saraenvozalta"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@saraenvozalta</span></figcaption>
 </figure>
 <figure style="margin: 0; box-sizing: border-box; background: #FFFFFF; border-radius: 24px; padding: 10px 10px 4px; box-shadow: 0 24px 50px -30px rgba(43,39,64,0.5); display: flex; flex-direction: column">
 <div class="shot">
-<video preload="none" aria-label="Video de @saraenvozalta" poster="img/saraenvozalta-3.jpg" src="videos/saraenvozalta-3.mp4"></video>
+<video playsinline="playsinline" webkit-playsinline="true" preload="none" aria-label="Video de @saraenvozalta" poster="img/saraenvozalta-3.jpg" src="videos/saraenvozalta-3.mp4"></video>
 <button type="button" class="play" aria-label="Reproducir el video de @saraenvozalta"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"></path></svg></button>
 </div>
 <figcaption class="cap"><span>@saraenvozalta</span></figcaption>
